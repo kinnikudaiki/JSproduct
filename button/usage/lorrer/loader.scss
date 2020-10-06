@@ -1,0 +1,12 @@
+$cBlack: black;
+
+.three-dot-spinner {
+  text-align: center;
+  & div {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+  }
+}
