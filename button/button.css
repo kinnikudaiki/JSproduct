@@ -6,15 +6,16 @@
   font-weight: 600;
   cursor: pointer;
   margin: 10px 40px 10px 40px;
-  transition: color 4s ease 3s,
-              background-color 2s ease 2s;
-}
-
-#container {
-  text-align: center;
+  -webkit-transition: all 4s;
+  transition: all 4s;
 }
 
 .btn:hover {
   background-color: black;
   color: white;
 }
+
+#container {
+  text-align: center;
+}
+/*# sourceMappingURL=button.css.map */
