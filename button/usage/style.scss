@@ -1,27 +1,20 @@
-.parent {
-  color: blue;
-  & > .element {
-    color: purple;
-    &.second-child {
-      color: black;
+.btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 40px;
+  margin: 50px 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 2s;
+
+  &.float {
+    &:hover {
+      box-shadow: 0 0 10px black;
     }
   }
+  // &:hover {
+  //   background-color: red;
+  //   color: white;
+  // }
 }
-
-.element { 
-  color: red;
-}
-
-span {
-  display: inline-block;
-  width: 300px;
-  height: 400px;
-  background-color: blueviolet;
-}
-
-// div {
-//   display: inline-block;
-//   width: 200px;
-//   height: 400px;
-//   background-color: blueviolet;
-// }
