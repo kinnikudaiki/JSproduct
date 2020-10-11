@@ -15,6 +15,22 @@ const btn = document.querySelector('#btn');
 
 // btn.addEventListener("click", hello2);
 
-let hello = "hello world";
+// let hello = "hello world";
 
-console.log(hello.split(""));
+// // 文末に丸括弧（）が付くものはメソッド
+// console.log(hello.toUpperCase());
+
+// // 文末に何も付かないものはプロパティー
+// // 定義した変数の特定の値を保持しているもの
+// console.log(hello.length);
+
+// const arry = new Array(1,2,3,4,5,6);
+const arry = [1,2,3,4,5,6];
+// arry[2] = "go"
+// arry.push("new item");
+arry.unshift("new item");
+const val = arry.pop();
+const val2 = arry.shift();
+console.log(arry);
+console.log(val)
+console.log(val2)
