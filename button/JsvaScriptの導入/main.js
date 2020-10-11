@@ -15,14 +15,14 @@ const btn = document.querySelector('#btn');
 
 // btn.addEventListener("click", hello2);
 
-// let hello = "hello world";
+let hello = "hello world";
 
-// // 文末に丸括弧（）が付くものはメソッド
-// console.log(hello.toUpperCase());
+// 文末に丸括弧（）が付くものはメソッド
+console.log(hello.toUpperCase());
 
-// // 文末に何も付かないものはプロパティー
-// // 定義した変数の特定の値を保持しているもの
-// console.log(hello.length);
+// 文末に何も付かないものはプロパティー
+// 定義した変数の特定の値を保持しているもの
+console.log(hello.length);
 
 // const arry = new Array(1,2,3,4,5,6);
 // const arry = [1,2,3,4,5,6];
