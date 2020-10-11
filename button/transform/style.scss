@@ -1,0 +1,39 @@
+.rect1{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: aqua;
+  // 物体の位置を移動
+  transform: translate(20px, 20px);
+
+}
+
+.rect2{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgb(255, 81, 0);
+  // 物体の回転
+  transform: rotate(30deg);
+}
+
+.rect3{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgb(255, 251, 0);
+  // 物体の変形（平行）
+  transform: skew(-30deg, -30deg);
+}
+
+.rect4{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgb(0, 81, 255);
+  // 物体の大きさを指定
+  // transformを複数指定する場合は半角スペースを空ける
+  transform: scale(1.5,1.5) translateY(40px);
+}
+
+

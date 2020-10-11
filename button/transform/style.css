@@ -1,0 +1,36 @@
+.rect1 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: aqua;
+  -webkit-transform: translate(20px, 20px);
+          transform: translate(20px, 20px);
+}
+
+.rect2 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #ff5100;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.rect3 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #fffb00;
+  -webkit-transform: skew(-30deg, -30deg);
+          transform: skew(-30deg, -30deg);
+}
+
+.rect4 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #0051ff;
+  -webkit-transform: scale(1.5, 1.5) translateY(40px);
+          transform: scale(1.5, 1.5) translateY(40px);
+}
+/*# sourceMappingURL=style.css.map */
