@@ -15,14 +15,14 @@ const btn = document.querySelector('#btn');
 
 // btn.addEventListener("click", hello2);
 
-let hello = "hello world";
+// let hello = "hello world";
 
-// 文末に丸括弧（）が付くものはメソッド
-console.log(hello.toUpperCase());
+// // 文末に丸括弧（）が付くものはメソッド
+// console.log(hello.toUpperCase());
 
-// 文末に何も付かないものはプロパティー
-// 定義した変数の特定の値を保持しているもの
-console.log(hello.length);
+// // 文末に何も付かないものはプロパティー
+// // 定義した変数の特定の値を保持しているもの
+// console.log(hello.length);
 
 // const arry = new Array(1,2,3,4,5,6);
 // const arry = [1,2,3,4,5,6];
@@ -45,14 +45,14 @@ console.log(hello.length);
 //   }
 // };
 
-// person.age = 12;
-// console.log(person.interests);
+person.age = 12;
+console.log(person.interests);
 
-// const arry = [1,2,3,4,5];
+const arry = [1,2,3,4,5];
 
-// for(let i = 0; i < arry.length; i += 1){
-//   console.log(arry[i]);
-// }
+for(let i = 0; i < arry.length; i += 1){
+  console.log(arry[i]);
+}
 
 // for(let i in arry){
 //   console.log(1, arry[i]);
