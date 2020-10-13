@@ -45,14 +45,14 @@ const btn = document.querySelector('#btn');
 //   }
 // };
 
-person.age = 12;
-console.log(person.interests);
+// person.age = 12;
+// console.log(person.interests);
 
-const arry = [1,2,3,4,5];
+// const arry = [1,2,3,4,5];
 
-for(let i = 0; i < arry.length; i += 1){
-  console.log(arry[i]);
-}
+// for(let i = 0; i < arry.length; i += 1){
+//   console.log(arry[i]);
+// }
 
 // for(let i in arry){
 //   console.log(1, arry[i]);
@@ -62,24 +62,30 @@ for(let i = 0; i < arry.length; i += 1){
 //   console.log(v);
 // }
 
-const todos = [
-  {
-    id:1,
-    title: "Go to school",
-    completed: true
-  },
-  {
-    id:2,
-    title: "Go to museum",
-    completed: true
-  },
-  {
-    id:3,
-    title: "Go shopping",
-    completed: false
-  }
-]
+// const todos = [
+//   {
+//     id:1,
+//     title: "Go to school",
+//     completed: true
+//   },
+//   {
+//     id:2,
+//     title: "Go to museum",
+//     completed: true
+//   },
+//   {
+//     id:3,
+//     title: "Go shopping",
+//     completed: false
+//   }
+// ]
 
-for(let i = 0; i < todos.length; i++){
-  console.log(todos[i].title);
+// for(let i = 0; i < todos.length; i++){
+//   console.log(todos[i].title);
+// }
+
+if(1 != '0') {
+  console.log("this is true");
+} else {
+  console.log("this is false")
 }
