@@ -84,8 +84,14 @@ const btn = document.querySelector('#btn');
 //   console.log(todos[i].title);
 // }
 
-if(1 != '0') {
-  console.log("this is true");
-} else {
-  console.log("this is false")
-}
+// if(1 != '0') {
+//   console.log("this is true");
+// } else {
+//   console.log("this is false")
+// }
+
+
+// アロー関数の使い方
+const array = [1,2,3,4,5,6];
+
+array.forEach(value => console.log(value));
