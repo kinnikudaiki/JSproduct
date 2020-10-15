@@ -95,3 +95,21 @@ const btn = document.querySelector('#btn');
 const array = [1,2,3,4,5,6];
 
 array.forEach(value => console.log(value));
+
+
+function hello(callback, lastname) {
+  console.log(callback);
+  console.log("hello" + callback(lastname));
+}
+
+function getName() {
+  return "Code mafai";
+}
+
+const getFirstName = function() {
+  return "Code";
+}
+
+hello(function(name){
+  return "Code" + name ;
+}, "Mafia");
