@@ -92,25 +92,25 @@ const btn = document.querySelector('#btn');
 
 
 
-// アロー関数の使い方
-const array = [1,2,3,4,5,6];
+  // アロー関数の使い方
+  const array = [1,2,3,4,5,6];
 
-array.forEach(value => console.log(value));
+  array.forEach(value => console.log(value));
 
 
-function hello(callback, lastname) {
-  console.log(callback);
-  console.log("hello" + callback(lastname));
-}
+  function hello(callback, lastname) {
+    console.log(callback);
+    console.log("hello" + callback(lastname));
+  }
 
-function getName() {
-  return "Code mafai";
-}
+  function getName() {
+    return "Code mafai";
+  }
 
-const getFirstName = function() {
-  return "Code";
-}
+  const getFirstName = function() {
+    return "Code";
+  }
 
-hello(function(name){
-  return "Code" + name ;
-}, "Mafia");
+  hello(function(name){
+    return "Code" + name ;
+  }, "Mafia");
