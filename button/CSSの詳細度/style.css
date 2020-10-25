@@ -1,0 +1,31 @@
+/* CSSの詳細度 */
+
+/* 下に行けば行くほど詳細度は高い */
+
+/* ①親要素 */
+.parent {
+  color: yellow;
+  font-weight: 600;
+}
+
+/* ②子要素 */
+span {
+  color: aquamarine;
+}
+
+/* ③クラス名 */
+.cls {
+  color: orange;
+}
+
+/* ④親要素指定　
+半角スペース開けて子要素指定 */
+.parent span {
+  color: blue;
+}
+
+/* ⑤ID名 */
+#first {
+  color: red;
+}
+
