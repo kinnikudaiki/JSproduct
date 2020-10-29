@@ -18,7 +18,8 @@ span {
   color: orange;
 }
 
-/* ④親要素指定　半角スペース開けて子要素指定 */
+/* ④親要素指定　
+半角スペース開けて子要素指定 */
 .parent span {
   color: blue;
 }
